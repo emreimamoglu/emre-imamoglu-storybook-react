@@ -1,6 +1,6 @@
 {
   "name": "storybook-react",
-  "version": "0.1.0",
+  "version": "0.0.0-development",
   "private": false,
   "main": "src/index.js",
   "dependencies": {
@@ -24,7 +24,8 @@
     "eject": "react-scripts eject",
     "prepare": "husky install",
     "storybook": "start-storybook -p 6006 -s public",
-    "build-storybook": "build-storybook -s public"
+    "build-storybook": "build-storybook -s public",
+    "semantic-release": "semantic-release"
   },
   "eslintConfig": {
     "extends": [
@@ -67,6 +68,11 @@
     "@storybook/testing-library": "^0.0.9",
     "husky": "^7.0.4",
     "prettier": "2.6.0",
-    "webpack": "^5.70.0"
+    "webpack": "^5.70.0",
+    "semantic-release": "^19.0.2"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/emreimamoglu/emre-imamoglu-storybook-react.git"
   }
 }
