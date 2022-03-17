@@ -1,19 +1,16 @@
-
 # Next Searchbar
 
 This is a customizable nextjs searchbar.
-
-
-
 
 ## Installation
 
 Install my-project with npm
 
 ```bash
-  cd emre-imamoglu-next-searchbar-semantic-release
+  cd emre-imamoglu-storybook-react
   npm install
 ```
+
 ## Running in dev mode
 
 ```
