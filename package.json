@@ -25,7 +25,8 @@
     "prepare": "husky install",
     "storybook": "start-storybook -p 6006 -s public",
     "build-storybook": "build-storybook -s public",
-    "semantic-release": "semantic-release"
+    "semantic-release": "semantic-release",
+    "commit": "git-cz"
   },
   "eslintConfig": {
     "extends": [
@@ -66,13 +67,19 @@
     "@storybook/preset-create-react-app": "^4.0.2",
     "@storybook/react": "^6.4.19",
     "@storybook/testing-library": "^0.0.9",
+    "cz-conventional-changelog": "^3.3.0",
     "husky": "^7.0.4",
     "prettier": "2.6.0",
-    "webpack": "^5.70.0",
-    "semantic-release": "^19.0.2"
+    "semantic-release": "^19.0.2",
+    "webpack": "^5.70.0"
   },
   "repository": {
     "type": "git",
     "url": "https://github.com/emreimamoglu/emre-imamoglu-storybook-react.git"
+  },
+  "config": {
+    "commitizen": {
+      "path": "./node_modules/cz-conventional-changelog"
+    }
   }
 }
