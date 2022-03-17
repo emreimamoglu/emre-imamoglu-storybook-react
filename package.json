@@ -2,7 +2,7 @@
   "name": "storybook-react",
   "version": "0.0.0-development",
   "private": false,
-  "main": "src/index.js",
+  "main": "./src/index.js",
   "dependencies": {
     "@emotion/react": "^11.8.2",
     "@emotion/styled": "^11.8.1",
@@ -25,8 +25,8 @@
     "prepare": "husky install",
     "storybook": "start-storybook -p 6006 -s public",
     "build-storybook": "build-storybook -s public",
-    "semantic-release": "semantic-release",
-    "commit": "git-cz"
+    "commit": "git-cz",
+    "semantic-release": "semantic-release"
   },
   "eslintConfig": {
     "extends": [
@@ -70,8 +70,8 @@
     "cz-conventional-changelog": "^3.3.0",
     "husky": "^7.0.4",
     "prettier": "2.6.0",
-    "semantic-release": "^19.0.2",
-    "webpack": "^5.70.0"
+    "webpack": "^5.70.0",
+    "semantic-release": "^19.0.2"
   },
   "repository": {
     "type": "git",
