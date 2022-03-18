@@ -1,4 +1,4 @@
-# Next Searchbar
+# React Searchbar
 
 This is a customizable nextjs searchbar.
 
