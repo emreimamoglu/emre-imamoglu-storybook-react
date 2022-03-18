@@ -1,6 +1,5 @@
-import React, { useState } from "react";
+import { useState } from "react";
 import SearchIcon from "@mui/icons-material/Search";
-import PropTypes from "prop-types";
 import Styles from "./Searchbar.styles";
 
 export type Props = {
