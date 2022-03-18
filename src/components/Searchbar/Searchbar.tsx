@@ -3,7 +3,16 @@ import SearchIcon from "@mui/icons-material/Search";
 import PropTypes from "prop-types";
 import Styles from "./Searchbar.styles";
 
-function Searchbar(props) {
+export type Props = {
+  searchBoxBackground?: string;
+  searchIconColor?: string;
+  searchIconBackground?: string;
+  searchInputColor?: string;
+  scale?: number;
+  placeholder?: string;
+};
+
+function Searchbar(props: Props) {
   const styles = Styles(props);
   const { placeholder } = props;
   const [hover, setHover] = useState(false);
@@ -40,12 +49,3 @@ function Searchbar(props) {
 }
 
 export default Searchbar;
-
-Searchbar.propTypes = {
-  searchBoxBackground: PropTypes.string,
-  searchIconColor: PropTypes.string,
-  searchIconBackground: PropTypes.string,
-  searchInputColor: PropTypes.string,
-  scale: PropTypes.number,
-  placeholder: PropTypes.string,
-};
