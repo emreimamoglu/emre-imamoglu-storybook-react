@@ -16,9 +16,9 @@ function Searchbar(props: Props) {
   const { placeholder } = props;
   const [hover, setHover] = useState(false);
   const [searchInput, setSearchInput] = useState("");
-  
+
   console.log("Emre");
-  
+
   return (
     <div
       style={styles.searchBox}
