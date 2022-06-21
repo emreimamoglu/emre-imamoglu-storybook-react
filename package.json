@@ -2,7 +2,6 @@
   "name": "emre-imamoglu-storybook-react",
   "version": "0.0.0-development",
   "private": false,
-  "main": "./src/index.js",
   "dependencies": {
     "@emotion/react": "^11.8.2",
     "@emotion/styled": "^11.8.1",
@@ -89,5 +88,17 @@
     "commitizen": {
       "path": "./node_modules/cz-conventional-changelog"
     }
-  }
+  },
+  "plugins": [
+    "@semantic-release/commit-analyzer",
+    "@semantic-release/release-notes-generator",
+    "@semantic-release/changelog",
+    "@semantic-release/github",
+    "@semantic-release/npm",
+    "@semantic-release/git"
+  ],
+  "files": [
+    "dist"
+  ],
+  "main": "dist/index.js"
 }
